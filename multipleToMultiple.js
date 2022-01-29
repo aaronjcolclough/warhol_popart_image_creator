@@ -33,6 +33,7 @@ function draw() {
   noStroke()
   fill('white')
   square(0, 0, 540)
+  
   numImgs = numImgsInput.value()
   imgsPer = Math.sqrt(numImgs)
   imgSize = baseCanvas.width / imgsPer
